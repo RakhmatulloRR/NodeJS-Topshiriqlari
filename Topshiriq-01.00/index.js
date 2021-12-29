@@ -1,4 +1,5 @@
 //* # 36.dars: Topshiriq-01 [url: "http://webtutorial.com/api/categories" ]
+//* postman da url: "http://localhost:5000/api/categories"
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 const categories = [
     {id: 1, name: "HTML"},
