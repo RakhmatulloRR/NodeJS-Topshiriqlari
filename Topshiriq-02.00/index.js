@@ -1,11 +1,5 @@
 "use strict";
-<<<<<<< HEAD
 //* # 46.dars: Topshiriq-02 [url: "http://MaktabDarsliklari.com/api/sinflar" ] ni tartibga keltirish: 
-=======
-//* # 46.dars: Topshiriq-02 [url: "http://MaktabDarsliklari.com/api/sinflar" ] ni tartibga keltirish:
-
->>>>>>> f2c16edca274a68bb7f0362e0dcf344dc758a0bf
-
 const express = require('express');
 const logger39 = require('./middleware/logger39');
 const helmet = require("helmet");
