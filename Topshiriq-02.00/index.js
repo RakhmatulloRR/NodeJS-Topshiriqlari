@@ -1,5 +1,6 @@
 "use strict";
-//*46.dars: Topshiriq-02. 
+//* # 46.dars: Topshiriq-02 [url: "http://MaktabDarsliklari.com/api/sinflar" ] ni tartibga keltirish:
+
 
 const express = require('express');
 const logger39 = require('./middleware/logger39');
