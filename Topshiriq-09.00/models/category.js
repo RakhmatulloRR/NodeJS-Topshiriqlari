@@ -20,6 +20,6 @@ function validateCatgory(category) {
     });
     return categoryScheem.validate(category);
 }
-module.exports.categoryScheem = categorySchema;
+module.exports.categorySchema = categorySchema;
 module.exports.Category = Category;
 module.exports.validateCatgory = validateCatgory;

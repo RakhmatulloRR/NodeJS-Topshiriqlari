@@ -23,7 +23,7 @@ router.post("/", async function (req, res) {
     if (error) {
         res.status(400).send(error.details[0].message);
     }
-    const category = new Category.findById(req.body.categoryId);
+    const category = await Category.findById(req.body.categoryId);
     if (!category) {
         return res.status(404).send("Berilgan ID li category topilmadi");
     }
@@ -57,7 +57,7 @@ router.put("/:id", async function (req, res) {
     if (error) {
         return res.status(400).send(error.details[0].message);
     }
-    const category = new Category.findById(req.body.categoryId);
+    const category = await Category.findById(req.body.categoryId);
     if (!category) {
         return res.status(404).send("Berilgan ID li category topilmadi");
     }
